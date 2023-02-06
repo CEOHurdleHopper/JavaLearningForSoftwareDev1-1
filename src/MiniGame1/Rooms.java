@@ -1,8 +1,8 @@
-
+package MiniGame1;
 
 import java.util.*;
 
-public class Rooms extends Exit{
+public class Rooms extends Exit {
 
     private int roomNum;
     private String roomName;
@@ -63,7 +63,7 @@ public class Rooms extends Exit{
 
     @Override
     public String toString() {
-        return "Rooms [roomNum=" + roomNum + ", roomName=" + roomName + ", description=" + description + ", exits="
+        return "MiniGame1.Rooms [roomNum=" + roomNum + ", roomName=" + roomName + ", description=" + description + ", exits="
                 + exits + ", isVisited=" + isVisited + "]";
     }
 

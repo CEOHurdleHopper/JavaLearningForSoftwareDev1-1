@@ -1,4 +1,4 @@
-
+package MiniGame1;
 
 public class Exit {
 
@@ -30,7 +30,7 @@ public class Exit {
 
     @Override
     public String toString() {
-        return "Exit [direction=" + direction + ", destination=" + destination + "]";
+        return "MiniGame1.Exit [direction=" + direction + ", destination=" + destination + "]";
     }
 
 
