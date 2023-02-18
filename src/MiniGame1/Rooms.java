@@ -4,27 +4,26 @@ import java.util.*;
 
 public class Rooms extends Exit {
 
-    private int roomNum;
+    private String roomNum;
     private String roomName;
-    private String description;
+    private ArrayList<String> description;
     private ArrayList<Exit> exits;
-    private boolean isVisited;
+    boolean isVisited;
 
-    public Rooms(int roomNum, String roomName, String description, boolean isVisited, ArrayList<Exit> exits) {
+    public Rooms() {}
+    public Rooms(String roomNum, String roomName, ArrayList<String> description, ArrayList<Exit> exits) {
         this.setRoomNum(roomNum);
         this.setRoomName(roomName);
         this.setDescription(description);
         this.setExits(exits);
-        this.setIsVisited(isVisited);
+        this.isVisited = false;
     }
 
-    public Rooms() {}
-
-    public int getRoomNum() {
+    public String getRoomNum() {
         return roomNum;
     }
 
-    public void setRoomNum(int roomNum) {
+    public void setRoomNum(String roomNum) {
         this.roomNum = roomNum;
     }
 
@@ -36,11 +35,11 @@ public class Rooms extends Exit {
         this.roomName = roomName;
     }
 
-    public String getDescription() {
+    public ArrayList<String> getDescription() {
         return description;
     }
 
-    public void setDescription(String description) {
+    public void setDescription(ArrayList<String> description) {
         this.description = description;
     }
 

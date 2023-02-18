@@ -1,11 +1,101 @@
-#1
-#Main Entrance
-#You finally arrive at the Castle and know what you must do.
+0
+Main Entrance
+
+You finally arrive at the Castle and know what you must do.
 The only problem is that you do not know where to go.
-As you reach the entrance to the castle you realize that there are two paths available to you.
-North where it seems like there is a cemetery gate,
-or West where the main house is located.
-#Cemetery Grounds
-#Elegant Front Door
-#North
-#West
+As you reach the entrance to the castle you realize that
+there are two paths available to you. North where
+it seems like there is a cemetery gate,or east where the
+main house is located.
+-----
+EAST 2
+NORTH 1
+-----
+1
+Cemetery Grounds
+
+The cemetery was shrouded in an eerie darkness,
+with only the faint light of the moon casting
+shadows on the gravestones.The wind whistled through the trees,
+rustling the leaves and adding an ominous atmosphere to the already
+spooky surroundings. You can only head back south
+Due to the tall barbed fence surrounding the premises.
+-----
+SOUTH 0
+-----
+2
+Elegant Front Door
+
+The grand front door is a masterpiece of design,
+with intricate carvings and a rich, mahogany finish.
+Its graceful arch and polished brass hardware make a stunning
+first impression, welcoming visitors into the beautifully
+appointed home beyond. You note that you can go east
+towards a great smell, west back to the
+main entrance, or south.
+-----
+EAST 3
+SOUTH 4
+WEST 0
+-----
+3
+Kitchen
+
+A bustling and aromatic room filled with open fires,
+bubbling cauldrons, and busy cooks preparing hearty meals for lords,
+ladies, and peasants alike. You see your options of travel are either
+south toward an oddly placed carpet, west toward the beautiful front door,
+or east toward the sharp sent of gasoline.
+-----
+SOUTH 5
+WEST 2
+EAST 4
+-----
+4
+Garage
+
+As you push open the door to the garage, the musty smell of oil and
+gasoline wafts over you, and you are greeted by the sight of a stylish car,
+workbench, and various tools scattered about. You can see from this room you can
+go north to the front door, or west toward the sound of roaring flames and bubbling
+liquid.
+-----
+NORTH 2
+WEST 3
+-----
+5
+Secret Floor Board Passage
+
+As you lift the corner of the carpet,
+you discover a slightly raised spot and upon pulling it back,
+you reveal a small trapdoor in the floorboards leading to a hidden passageway.
+You note you can head south toward a stench that is unbearable, or north to the
+kitchen.
+-----
+SOUTH 6
+NORTH 3
+-----
+6
+Monsters Lair
+
+As you cautiously step into the forest monster's lair, the stench of
+rotting flesh and decay assaults your senses. The darkness envelops you,
+and you can feel the monster's presence looming
+over you as you tread further into the unknown. From this place you
+can run either north back toward where you've come from, or
+east deeper into the forest
+-----
+EAST 7
+NORTH 5
+-----
+7
+Forest Escape
+
+You sprint through the dense foliage,
+dodging branches and leaping over fallen logs as you hear the sound of
+footsteps closing in behind you.
+The cool air fills your lungs as you burst out of the trees,
+your heart racing with the thrill of escape. You've beat the game press q or quit to win.
+-----
+WEST 6
+-----
